@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>API lyrics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row">
+        <div class="col p25">
+            <div class="col p5">
+                <label for="artist">Artist</label>
+                <input type="text" name="artist" id="artist">
+            </div>
+            <div class="col p5">
+                <label for="song">Song</label>
+                <input type="text" name="song" id="song">
+            </div>
+            <button id="submit">
+                Submit
+            </button>
+
+            <p>Made with <br> <a href="https://lyricsovh.docs.apiary.io">https://lyricsovh.docs.apiary.io</a></p>
+        </div>
+        <div class="col p25">
+            <div id="songLyrics"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
